@@ -1,0 +1,63 @@
+[1] What is diffrence between dependencies and devdependencies ?
+ans :-
+Purpose:
+
+dependencies: Essential for the application’s functionality or it is need for production .
+devDependencies: Essential for development, but not needed in production.
+
+Installation in Production:
+
+dependencies: Installed by default.
+devDependencies: Not installed by default when running npm install --production or yarn install --production.
+Impact on Production Environment:
+
+dependencies: Affect the final production bundle.
+devDependencies: Do not affect the production bundle and are ignored during production deployments.
+ 
+example of dependencies :- express,mongoose 
+example of dev-dependencies :- mouch,eslint
+
+[2] what is the ORM/ODM ?
+ans:- Understanding ORM/ODM libraries:
+ORM and ODM are programming techniques that provide a higher-level abstraction for database interactions. They allows you to interact with databases using object-oriented programming concepts, making database operations more automatic and less dependent on raw SQL queries.
+
+ORM (Object-Relational Mapping): Primarily used with relational databases, ORM translates between objects in code and rows in a relational database table.
+ODM (Object-Document Mapping): Built for NoSQL databases like MongoDB, ODM maps between objects in code and documents in a NoSQL database collection.
+
+[3] what is diffrence between freamework and libraries ?
+ans :- Library: A collection of pre-written code that you use to perform specific tasks in your application.
+ You control when and how to use it.
+
+Framework: A structured set of tools and conventions that provides a foundation for building applications. 
+It dictates the overall architecture and controls the flow of your application, calling your code at certain points.
+
+[4] what is Winston ? 
+ans:- In Node.js, Winston is a popular and flexible logging library used for handling logs in an application. Logging is a crucial 
+part of any application for debugging, monitoring, error tracking, and performance analysis. Winston is widely used due to its versatility and ease of integration with other services.
+
+[5] what is joi ?
+ans:- In Node.js, Joi is a powerful schema validation library that allows you to define and validate JavaScript objects easily.
+ It is commonly used to validate data, such as user input, before it's processed by an application.
+
+[6] what is babel ?
+ans:- The Babel library is a popular JavaScript compiler used to convert modern JavaScript (ES6/ES7+) into backwards-compatible 
+JavaScript code that can run in older environments, like older browsers or Node.js versions that don't support the latest JavaScript features.
+
+[7]what is cors?
+ans:- The CORS (Cross-Origin Resource Sharing) library in Node.js allows your server to accept requests from websites hosted on different 
+domains. Normally, browsers block requests made to a different domain for security reasons. The CORS library helps you tell the browser
+ it's okay to allow these requests by setting permissions for which websites can access your server.
+
+[8]what is the diffrence between json and xml ?
+ans :- 
+Feature	JSON	XML
+Format Type	Data format	Markup language
+Syntax	Key-value pairs and arrays	Custom-defined nested tags
+Readability	More concise and readable	More verbose, but self-describing
+Data Types	Strings, numbers, booleans, arrays, objects	Text-based, all data is treated as text
+Size	Lightweight	Typically larger
+Parsing	Easier and faster to parse	More complex to parse
+Use Case	Primarily used for data transmission in API Used in both data storage (config files) and transmission (SOAP)
+Data Validation	No native validation support Supports schemas (XSD, DTD).
+
+
