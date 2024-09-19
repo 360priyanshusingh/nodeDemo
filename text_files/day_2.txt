@@ -1,0 +1,21 @@
+[1] what is the helmet ?
+ans :- In Node.js, helmet is a middleware that helps secure your web applications by setting various HTTP headers. It enhances the security 
+of your Node.js applications by mitigating certain web vulnerabilities, such as cross-site scripting (XSS), clickjacking, 
+and other attacks related to HTTP headers.
+
+[2] what is the logger ?
+ans :- 
+In Node.js, a logger is a tool or a module used to log messages, errors, or events from your application to various outputs like the console,
+ files, or even external logging services. Logging is an essential part of software development and debugging, helping developers keep 
+ track of the application's behavior, detect issues, and monitor performance.
+
+[3] what is logging ?
+ans :- 
+The logging process in an Express and Node.js application involves recording information about the application's operations, HTTP requests,
+ errors, and system events. Logging is essential for monitoring application health,  debugging issues, and understanding how the app 
+  behaves in different environments (development, production, etc.).
+
+[4] what is morgan   ?
+ans :- Morgan is specifically designed to log HTTP requests in an Express application. 
+Its primary purpose is to monitor and track incoming requests, responses, and associated data like status codes and response times.
+
