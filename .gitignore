@@ -1,0 +1,9 @@
+node_modules/
+
+src/
+
+/text_files/day_1.txt/
+
+ *package.json
+
+ *package-lock.json
